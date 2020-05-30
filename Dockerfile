@@ -7,7 +7,7 @@ LABEL maintainer="Ivan Rimac <ivan@barrage.net>"
 WORKDIR /denoland
 
 # fetch the compressed source of deno
-ADD https://github.com/denoland/deno/releases/download/v1.0.2/deno_src.tar.gz .
+ADD https://github.com/denoland/deno/releases/download/v1.0.3/deno_src.tar.gz .
 
 RUN tar xvzf ./deno_src.tar.gz
 
